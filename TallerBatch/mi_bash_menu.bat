@@ -1,4 +1,4 @@
-@echo off
+v@echo off
 rem Mini Menú Interactivo
 :inicio
 echo ======================================
@@ -64,3 +64,7 @@ goto inicio
 echo Bloqueando pantalla...
 start rundll32.exe user32.dll,LockWorkStation
 goto inicio
+
+:salir
+echo Has decidido salir del menú. Gracias por usar el menu de pipe.
+goto :eof
