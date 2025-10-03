@@ -1,4 +1,4 @@
-v@echo off
+@echo off
 rem Mini Menú Interactivo
 :inicio
 echo ======================================
